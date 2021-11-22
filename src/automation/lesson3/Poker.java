@@ -34,7 +34,7 @@ public class Poker {
         for (int round = 1; round < 6; round++){
             System.out.printf("%d round", round);
             for (int player = 1; player <= noOfPlayers; player++) {
-                System.out.printf("Player %d gets %s%n" , player, deck[count++]);
+                System.out.printf("%n Player %d gets %s%n" , player, deck[count++]);
             }
             System.out.println("");
         }
