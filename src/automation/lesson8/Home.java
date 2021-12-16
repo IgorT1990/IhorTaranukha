@@ -20,23 +20,18 @@ public class Home {
 
             for (int j = 0; j < list.size(); j++)
             {
-
-                if (i == j)
-                {
+                if (i == j) {
                     break;
                 }
-                else if (list.get(j).equals(data))
-                {
+                else if (list.get(j).equals(data)) {
                     doAdd = false;
                     break;
                 }
             }
-            if (doAdd)
-            {
+                if (doAdd) {
                 newList.add(data);
-            }
-            else
-            {
+                }
+            else {
                 doAdd = true;
             }
         }
