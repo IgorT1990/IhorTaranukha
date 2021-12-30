@@ -1,1 +1,3 @@
-automation\newlesson\mvnTest\MvnTest.class
+testngTest\MyFirstTest.class
+testngTest\MySecondTest.class
+mvnTest\mvnTest.class
